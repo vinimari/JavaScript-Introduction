@@ -21,7 +21,7 @@ sum++;
 sum--; 
 
 // Augmented Math Operations  
-a += 1; // is the same of:  a = a + 1;
+a += 1; // is the same of: a = a + 1;
 b -= 1; // is the same of: b = b - 1; 
 c *= 1; // is the same of: c = c * 1;  
 d /= 1; // is the same of: d = d / 1; 
