@@ -19,22 +19,22 @@ console.log(multiArray[1][0]) // [Cecilia]
 multiArray[0][0] = "Marcio"
 console.log(multiArray[0])
 
-//Manipulate arrays with push()
+//Manipulate arrays with PUSH()
   // add a alement at the end of the array 
 array.push(["Josue", 32])
 // array now equals [["John", 23]["Josue", 32]] 
 
-//Manipulate arrays with unshift()
+//Manipulate arrays with UNSHIFT()
   // add a element at the beginning of the array 
 array.unshift("Bolo de Cenoura")
 console.log("primeiro elemento array:", array[0])
   
-//Manipulate arrays with pop()
+//Manipulate arrays with POP()
   //this function remove the last element of the array 
 var last = array.pop()
 console.log("ultimo elemento array:", last) 
 
-//Manipulate arrays with shift()
+//Manipulate arrays with SHIFT()
   //this function remove the first element of the array 
 var first = multiArray.shift()
 console.log("primeiro elemento multiarray:", first)
