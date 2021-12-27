@@ -32,3 +32,5 @@ var favFood = myCat["favorite food"]
 var aPropCat = "favorite food"
 console.log(myCat[aPropCat])
 
+// Properties also can be deleted 
+delete myCat.friends
