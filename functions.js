@@ -66,4 +66,21 @@ function id()
 console.log("Value local variable:", id())
 console.log("Value global variable:", myName)
 
+// Arrow functions 
+// You can convert a anonymous function into an arrow function 
+var magic = function ()
+{
+  return new Date()
+}
+console.log(magic())
+
+// Is the same of: 
+// Just remove the word 'function' 
+var magicArrow = () => { return new Date() }
+
+// Whitch is the same of:
+// Remove curly braces and 'return'   
+var magicArrow = () => new Date()
+
+console.log(magicArrow())
  
