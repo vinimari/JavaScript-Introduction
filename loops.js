@@ -22,3 +22,9 @@ console.log(someArray)
 
 //obs: count at for loop can be added more than one per cicle
 // can also be subtracted 
+
+// do-while always run at least once before checks the condition. 
+count = 0; 
+do {
+  console.log(count)
+} while (count != 0) 
